@@ -1,0 +1,38 @@
+    1  cd git 
+    2  cd git
+    3  cd C
+    4  FIT
+    5  CD C:\Users\yakim\OneDrive\[200~ CD C:\Users\yakim\OneDrive[200~cd "/c/Users/yakim/OneDrive/Робочий стіл/git"
+    6  ды
+    7  ls
+    8  cd "git"
+    9  list
+   10  [200~cd "/c/Users/yakim/OneDrive/Робочий стіл/git"
+   11  cd "/c/Users/yakim/OneDrive/Робочий стіл/git"
+   12  -c && rm ~/.bash_history
+   13  git config --global user.name "Максим"
+   14  git config --global user.email "yakimchyk3@email.com"
+   15  git config --global --list
+   16  git clone https://github.com/Sw1ty-01/HW_10
+   17  cd "/c/Users/yakim/OneDrive/Робочий стіл/git"
+   18  touch text_ignore.txt
+   19  echo "text_ignore.txt" >> .gitignore
+   20  git status
+   21  git add .
+   22  git commit -m "Додано файл .gitignore, щоб ігнорувати text_ignore.txt"
+   23  cd "/c/Users/yakim/OneDrive/Робочий стіл/git/HW_10"
+   24  touch main_test.txt
+   25  git add .
+   26  git commit -m "Додано main_test.txt"
+   27  git checkout -b develop
+   28  touch develop_test.txt
+   29  git add .
+   30  git commit -m "Додано develop_test.txt"
+   31  echo "just a small change" >> develop_test.txt
+   32  git status
+   33  git add .
+   34  git commit -m "Невелика зміна у develop_test.txt"
+   35  git checkout main
+   36  git merge develop
+   37  git log --oneline --graph
+   38  history > command_list.csv
